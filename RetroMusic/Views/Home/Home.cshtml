@@ -1,0 +1,39 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+@using System.Data
+@model DataTable
+
+<div class="row">
+    <h1>Visited Libraries</h1>
+</div>
+@{
+    if (Model.Rows.Count == 0)
+    {
+        <div class="row">
+            <p> No Song visited bynow</p>
+        </div>}
+}
+
+<div class="row">
+    <div class="col-md-12">
+        @{
+            if (Model.Rows.Count != 0)
+            {
+                <table>
+                    <tr style="background-color:aliceblue">
+                        <th>Title</th>
+                    </tr>
+                    @foreach (DataRow dr in Model.Rows)
+                    {
+                        <tr>
+                            <td>@dr["SongName"]</td>
+                        </tr>
+                    }
+                </table>
+            }
+        }
+    </div>
+
+</div>
+

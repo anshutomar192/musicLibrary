@@ -1,0 +1,50 @@
+﻿@model RetroMusic.BOL.Model.Song
+@{
+    Layout = null;
+}
+<script src="~/scripts/ProjectScripts/SongDetail.js"></script>
+<div class="container pt-3">
+    <span id="error" style="color:red;"></span>
+    <div class="form-horizontal">
+        <h4>
+            <span id="songNameSpan">
+                @Html.DisplayFor(model => model.SongName, new { @id = "lblSongName" })
+            </span>
+        </h4>
+    </div>
+    <div class="form-group">
+        @if (Model.SingerName != null)
+        {
+            <div class="col-md-2">
+                @Html.DisplayFor(model => model.SingerName, new { @class = "control-label col-md-6", @id = "lblSingerName" })
+            </div>
+        }
+
+        @if (Model.Year != null)
+        {
+            <div class="col-md-2">
+                @Html.DisplayFor(model => model.Year, new { @class = "control-label col-md-6", @id = "lblYear" })
+            </div>
+        }
+        @if (Model.Description != null)
+        {
+            <div class="col-md-10">
+                <p>  @Html.DisplayFor(model => model.Description, new { @class = "control-label col-md-6", @id = "lblDescription" })</p>
+            </div>
+        }
+        <div class="col-md-5">
+            <input type="text" id="txtEmail" placeholder="Enter Email" class="form-control" />
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-10">
+            <input type="button" id="btnBuy" name="button" class="btn btn-primary" value="Buy Now" onclick="SaveDetail()" />
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript">
+        
+</script>

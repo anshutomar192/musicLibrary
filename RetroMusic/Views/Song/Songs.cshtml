@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewBag.Title = "Songs";
+}
+<script src="~/scripts/ProjectScripts/Song.js"></script>
+<h2>Songs</h2>
+<div style="width:90%;margin:0 auto;">
+    <table id="myTable">
+        <thead>
+            <tr>
+                <th>Song ID</th>
+                <th>Song Name</th>
+                <th>Album Name</th>
+                <th>Language</th>
+                <th>Singer</th>
+            </tr>
+        </thead>
+    </table>
+</div>
+
+<style>
+    tr.even {
+        background-color: #F5F5F5 !important;
+    }
+</style>
+@* Load datatable css *@
+<link href="//cdn.datatables.net/1.10.9/css/jquery.dataTables.min.css" rel="stylesheet" />
+@* Load datatable js *@
+@section Scripts{
+    <script src="//cdn.datatables.net/1.10.9/js/jquery.dataTables.min.js"></script>
+
+}
