@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RetroMusic", "RetroMusic\RetroMusic.csproj", "{4870FA1F-EEE8-45FB-BCEB-DC3727F7C1A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RetroMusic.Tests", "RetroMusic.Tests\RetroMusic.Tests.csproj", "{1C26F5EE-11CF-430E-A56D-6B0164226E39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RetroMusic.BAL", "RetroMusic.BAL\RetroMusic.BAL.csproj", "{E6A4CB00-6B5C-4E24-B3AB-96AC58DB23E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RetroMusic.DAL", "RetroMusic.DAL\RetroMusic.DAL.csproj", "{3F885315-DFF3-4579-9BDA-DFF586643F7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RetroMusic.Entity", "RetroMusic.Entity\RetroMusic.Entity.csproj", "{AEF39AC6-CE90-45CE-99CA-BE13884BF424}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RetroMusic.BOL", "RetroMusic.BOL\RetroMusic.BOL.csproj", "{7D5F1445-F83D-49EC-B26D-FCB950FF933D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4870FA1F-EEE8-45FB-BCEB-DC3727F7C1A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4870FA1F-EEE8-45FB-BCEB-DC3727F7C1A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4870FA1F-EEE8-45FB-BCEB-DC3727F7C1A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4870FA1F-EEE8-45FB-BCEB-DC3727F7C1A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C26F5EE-11CF-430E-A56D-6B0164226E39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C26F5EE-11CF-430E-A56D-6B0164226E39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C26F5EE-11CF-430E-A56D-6B0164226E39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C26F5EE-11CF-430E-A56D-6B0164226E39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6A4CB00-6B5C-4E24-B3AB-96AC58DB23E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6A4CB00-6B5C-4E24-B3AB-96AC58DB23E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6A4CB00-6B5C-4E24-B3AB-96AC58DB23E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6A4CB00-6B5C-4E24-B3AB-96AC58DB23E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F885315-DFF3-4579-9BDA-DFF586643F7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F885315-DFF3-4579-9BDA-DFF586643F7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F885315-DFF3-4579-9BDA-DFF586643F7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F885315-DFF3-4579-9BDA-DFF586643F7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEF39AC6-CE90-45CE-99CA-BE13884BF424}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEF39AC6-CE90-45CE-99CA-BE13884BF424}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEF39AC6-CE90-45CE-99CA-BE13884BF424}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEF39AC6-CE90-45CE-99CA-BE13884BF424}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D5F1445-F83D-49EC-B26D-FCB950FF933D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D5F1445-F83D-49EC-B26D-FCB950FF933D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D5F1445-F83D-49EC-B26D-FCB950FF933D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D5F1445-F83D-49EC-B26D-FCB950FF933D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
